@@ -3,7 +3,7 @@ import { React, useState } from "react";
 import { MDBBadge, MDBBtn, MDBTypography, MDBCollapse } from 'mdb-react-ui-kit';
 
 export default function Profile(){
-  const [username, setUsername] = useState("Bob")
+  const [username, setUsername] = useState("Randomuser")
   const [alerts, setAlerts] = useState(4)
   const [editing, setEditing] = useState(true)
   const [showShow, setShowShow] = useState(false);
