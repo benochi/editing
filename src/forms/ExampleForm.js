@@ -7,8 +7,12 @@ import {
 export default function ExampleForm({editClick, setUsername, setAlerts}) {
   function handleSubmit(e){
     e.preventDefault();
-    setUsername(e.target[0].value)
-    setAlerts(e.target[1].value)
+    if(e.target[0].value.length > 0){
+      setUsername(e.target[0].value)
+    }
+    if(e.target[1].value > 0){
+      setAlerts(e.target[1].value)
+    }
     editClick()
   }
 
