@@ -10,10 +10,8 @@ import {
 export default function ExampleForm({editClick, setUsername}) {
   function handleSubmit(e){
     e.preventDefault();
-    console.log(e.target[0].value)
     setUsername(e.target[0].value)
     editClick()
-
   }
 
   return (

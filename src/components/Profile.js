@@ -22,7 +22,7 @@ export default function Profile(){
       <MDBTypography tag='h3' className='mb-0'>
         User: {username}<br></br>
         <MDBTypography tag='small' className='text-muted'>
-          With faded secondary text
+          Totally the most L337 user
         </MDBTypography>
       </MDBTypography>
       <MDBBtn className="m-2" onClick={alertClick}>
